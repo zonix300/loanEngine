@@ -1,0 +1,53 @@
+# ========================
+# NEXT.JS
+# ========================
+loan-engine-ui/.next/
+loan-engine-ui/out/
+loan-engine-ui/build/
+loan-engine-ui/node_modules/
+loan-engine-ui/.env*.local
+
+# Next.js cache / telemetry
+loan-engine-ui/.vercel
+loan-engine-ui/.turbo
+loan-engine-ui/next-env.d.ts
+
+# ========================
+# SPRING BOOT
+# ========================
+loanEngine/target/
+loanEngine/.mvn/wrapper/maven-wrapper.jar
+
+# Packaged app
+loanEngine/*.jar
+loanEngine/*.war
+loanEngine/*.ear
+
+# Spring Boot env files
+loanEngine/.env
+loanEngine/src/main/resources/application-local.properties
+loanEngine/src/main/resources/application-local.yml
+
+# ========================
+# IDEs
+# ========================
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# LOGS
+# ========================
+*.log
+logs/
